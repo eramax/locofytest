@@ -1,0 +1,94 @@
+.labelDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+}
+.assetsInputLabel {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labelDiv1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.inputAutoLayout {
+  align-self: stretch;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assetsInputBox {
+  border-radius: 2px;
+  overflow: hidden;
+}
+.assetsInputBox,
+.frameDiv,
+.inputBoxDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputBoxDiv {
+  gap: 6px;
+}
+.frameDiv {
+  padding: 0 0 14px;
+  box-sizing: border-box;
+}
+.iconGRIDSTARCUSTOMNodes {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.labelDiv2 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.assetsListItem,
+.configVariablePropertyDiv {
+  background-color: #fff;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.assetsListItem {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 20px 0 0;
+  align-items: center;
+}
+.configVariablePropertyDiv {
+  position: relative;
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+  width: 499px;
+  flex-direction: column;
+  padding: 10px;
+  align-items: flex-start;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: 12px;
+  color: #414141;
+  font-family: "Open Sans";
+}

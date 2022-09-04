@@ -1,0 +1,643 @@
+.iconDirectionsBackwards {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.buttonDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  width: 48px;
+  height: 439px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.iconGRIDSTARCUSTOMNodes {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.powerDefinedDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.frameDiv1 {
+  position: absolute;
+  top: 8px;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.frameDiv {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  border-top: 2px solid #db6b22;
+  border-right: 0 solid #db6b22;
+  border-bottom: 0 solid #db6b22;
+  border-left: 0 solid #db6b22;
+  box-sizing: border-box;
+  width: 48px;
+  flex-shrink: 0;
+}
+.labelDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+}
+.assetsInputLabel {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labelDiv1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.assetsInputBox,
+.inputAutoLayout,
+.inputBoxDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputAutoLayout {
+  align-self: stretch;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  padding: 7px 10px;
+}
+.assetsInputBox,
+.inputBoxDiv {
+  flex-direction: column;
+}
+.assetsInputBox {
+  border-radius: 2px;
+  width: 320px;
+  overflow: hidden;
+}
+.inputBoxDiv {
+  gap: 6px;
+}
+.divider {
+  background-color: #e8e8e8;
+  width: 1px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.tagDiv {
+  background-color: #d3e9f6;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.iconControlsAdd {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.buttonDiv1 {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv4,
+.tagsDiv {
+  justify-content: flex-start;
+}
+.tagsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+.frameDiv4 {
+  flex: 1;
+  gap: 8px;
+}
+.buttonDiv2,
+.frameDiv4,
+.frameDiv5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv2 {
+  border-radius: 2px;
+  background-color: #2064b4;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 4px;
+}
+.frameDiv5 {
+  justify-content: flex-end;
+  gap: 8px;
+  text-align: justify;
+  color: #fff;
+}
+.frameDiv3,
+.inputAutoLayout2 {
+  align-self: stretch;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameDiv3 {
+  border-top: 0 solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 0 solid #e8e8e8;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 718px;
+}
+.inputAutoLayout2 {
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0-1px 0#ccced0 inset;
+  border: 1px solid #e8e8e8;
+  padding: 0 0 0 10px;
+  align-items: center;
+  gap: 10px;
+}
+.assetSearchBoxInput,
+.assetsInputBox2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.assetsInputBox2 {
+  border-radius: 2px;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.assetSearchBoxInput {
+  height: 32px;
+  flex-shrink: 0;
+}
+.assetSearchBoxInput,
+.frameDiv9,
+.searchBoxDiv {
+  justify-content: flex-start;
+}
+.searchBoxDiv {
+  flex: 1;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameDiv9 {
+  width: 165px;
+  flex-shrink: 0;
+  align-items: center;
+  font-size: 12px;
+  color: #999;
+}
+.buttonDiv4,
+.frameDiv7,
+.frameDiv9 {
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv7 {
+  align-self: stretch;
+  border-top: 0 solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 0 solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  padding: 8px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.buttonDiv4 {
+  border-radius: 2px;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.treeNavDiv {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+}
+.dataBindingDiv,
+.frameDiv12,
+.groupComponentDiv,
+.treeNavDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.groupComponentDiv {
+  align-self: stretch;
+  background-color: #f7f7f7;
+  border-top: 0 solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 0 solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  padding: 4px 8px;
+  align-items: center;
+}
+.dataBindingDiv,
+.frameDiv12 {
+  align-items: flex-start;
+}
+.frameDiv12 {
+  align-items: center;
+  gap: 4px;
+}
+.iconDirectionsDropDown1 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+  margin-left: -4px;
+}
+.dropdownDiv,
+.inputAutoLayout3 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.inputAutoLayout3 {
+  border-top: 0 solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 0 solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 10px;
+  align-items: center;
+}
+.dropdownDiv {
+  width: 200px;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.labelI {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: none;
+}
+.assetsInputBox3,
+.inputAutoLayout4,
+.unitDiv {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputAutoLayout4 {
+  border-top: 0 solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 0 solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  padding: 7px 10px;
+}
+.assetsInputBox3,
+.unitDiv {
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.assetsInputBox3 {
+  width: 120px;
+  text-align: right;
+  color: #ccced0;
+}
+.unitDiv {
+  width: 80px;
+  text-align: justify;
+}
+.frameDiv11,
+.frameDiv13 {
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv13 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.frameDiv11 {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.controlCommentBtnDiv {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv15 {
+  justify-content: flex-end;
+  gap: 4px;
+}
+.frameDiv14,
+.frameDiv15,
+.parameterConfigurationDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv14 {
+  width: 104px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.parameterConfigurationDiv {
+  align-self: stretch;
+  border-top: 1px solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 0 solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 0 0 8px;
+  justify-content: flex-start;
+}
+.cablesOutrtotmaxDiv {
+  position: relative;
+  display: inline-block;
+}
+.dataBindingDiv2,
+.frameDiv23 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dataBindingDiv2 {
+  align-items: flex-start;
+  text-align: left;
+  color: #2064b4;
+}
+.unitDiv2 {
+  background-color: #f7f7f7;
+  width: 80px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  color: #999;
+}
+.parameterConfigurationDiv3,
+.unitDiv2,
+.unitDiv3 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.unitDiv3 {
+  width: 80px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  color: #999;
+}
+.parameterConfigurationDiv3 {
+  background-color: #f7f7f7;
+  border-top: 1px solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 0 solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  padding: 0 0 0 8px;
+  align-items: center;
+}
+.frameDiv10 {
+  align-self: stretch;
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 1px 8px;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: 12px;
+  color: #414141;
+}
+.frameDiv10,
+.frameDiv41,
+.inputControlDiv {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputControlDiv {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameDiv41 {
+  flex-direction: row;
+  gap: 39px;
+}
+.frameDiv40,
+.inputAutoLayout20,
+.valueDiv {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv40 {
+  border-top: 0 solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 0 solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  padding: 8px;
+  align-items: center;
+}
+.inputAutoLayout20,
+.valueDiv {
+  align-items: flex-start;
+}
+.inputAutoLayout20 {
+  flex-direction: row;
+  padding: 7px 10px;
+  box-sizing: border-box;
+}
+.valueDiv {
+  width: 120px;
+  flex-shrink: 0;
+  flex-direction: column;
+  text-align: right;
+}
+.iconDirectionsDropDown13 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-left: -4px;
+}
+.frameDiv39,
+.inputAutoLayout21 {
+  align-self: stretch;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+}
+.inputAutoLayout21 {
+  flex-direction: row;
+  padding: 0 0 0 10px;
+  align-items: center;
+}
+.frameDiv39 {
+  flex: 1;
+  border-top: 0 solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 0 solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttonDiv42,
+.buttonDiv43 {
+  border-radius: 2px;
+  background-color: #f4f7fb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonDiv43 {
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.divider1 {
+  align-self: stretch;
+  background-color: #e8e8e8;
+  height: 1px;
+  flex-shrink: 0;
+}
+.frameDiv2,
+.frameDiv6,
+.frameDiv85 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv85 {
+  flex-direction: column;
+  padding: 8px;
+  box-sizing: border-box;
+  gap: 4px;
+}
+.frameDiv2,
+.frameDiv6 {
+  flex: 1;
+  align-self: stretch;
+}
+.frameDiv6 {
+  flex-direction: row;
+  font-size: 14px;
+  color: #000;
+}
+.frameDiv2 {
+  background-color: #fff;
+  border-top: 2px solid #db6b22;
+  border-right: 0 solid #db6b22;
+  border-bottom: 0 solid #db6b22;
+  border-left: 0 solid #db6b22;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: column;
+  text-align: left;
+}
+.cornersPQDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+.frameDiv86 {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  border-top: 2px solid #db6b22;
+  border-right: 0 solid #db6b22;
+  border-bottom: 0 solid #db6b22;
+  border-left: 0 solid #db6b22;
+  box-sizing: border-box;
+  width: 48px;
+  flex-shrink: 0;
+  font-size: 11px;
+}
+.controlPanelConfiguration {
+  position: relative;
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #414141;
+  font-family: "Open Sans";
+}
