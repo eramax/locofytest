@@ -1,0 +1,59 @@
+.rectangleDiv {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: 100px;
+  border: 1px solid #414141;
+  box-sizing: border-box;
+}
+.iSOB {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 8px;
+  text-transform: uppercase;
+  display: flex;
+  font-family: "Open Sans";
+  color: #414141;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.iconGRIDSTARCUSTOMStudy {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.textDiv {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #414141;
+  text-align: left;
+  display: inline-block;
+}
+.item0Button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}

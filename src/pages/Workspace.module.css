@@ -1,0 +1,2735 @@
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #db6b22;
+  opacity: 0.3;
+}
+.frameSelect {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.iconActionsSave {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.labelDiv {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-family: "Open Sans";
+  color: #414141;
+  text-align: left;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 10px 0 0;
+  background-color: transparent;
+  border-radius: 2px 0 0 2px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.label {
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.inputAutoLayout {
+  align-self: stretch;
+  border-radius: 3px;
+  background-color: #db6b22;
+  border: 1px solid #db6b22;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 32px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.assetsDropDownField,
+.iconToolsEdit {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.assetsDropDownField {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconToolsEdit {
+  top: calc(50% - 16px);
+  width: 32px;
+  height: 32px;
+}
+.stateDropdownDiv {
+  position: relative;
+  width: 150px;
+  height: 32px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.frameDiv1,
+.frameDiv2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv1 {
+  top: calc(50% - 16px);
+  right: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameDiv2 {
+  top: calc(50% - 36px);
+  left: 0;
+  background-color: #db6b22;
+  height: 72px;
+  padding: 4px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.titlebarWorkspaceDiv {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+  border-top: 0 solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  height: 72px;
+  flex-shrink: 0;
+  z-index: 2;
+  color: #fbfcfc;
+}
+.frameIcon {
+  position: absolute;
+  top: 285px;
+  left: 1200px;
+  width: 5719px;
+  height: 1232px;
+  overflow: hidden;
+}
+.rectangleDiv1 {
+  position: absolute;
+  height: calc(100% - 1px);
+  width: calc(100% - 1px);
+  top: 0.5px;
+  right: 0.5px;
+  bottom: 0.5px;
+  left: 0.5px;
+  border-radius: 4px;
+  border: 1px dashed #db6b22;
+  box-sizing: border-box;
+}
+.v4Div,
+.workflowNameThatIsLong {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 5px #f5f5f5;
+}
+.workflowNameThatIsLong {
+  font-weight: 600;
+}
+.v4Div {
+  font-size: 10px;
+  color: #999;
+}
+.frameDiv4 {
+  position: absolute;
+  top: 20px;
+  left: 53px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.iconGRIDSTARCUSTOMNodes {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  width: 32px;
+  height: 32px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.iconGRIDSTARCUSTOMSetti {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.buttonDiv,
+.frameDiv5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv {
+  border-radius: 2px;
+  justify-content: center;
+  opacity: 0;
+}
+.frameDiv5 {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  justify-content: flex-end;
+}
+.connectingPointsIcon {
+  position: absolute;
+  top: calc(50% - 15.5px);
+  right: -15px;
+  width: 32px;
+  height: 32px;
+}
+.rectangleDiv2,
+.rectangleIcon {
+  position: absolute;
+  left: calc(50% - 2px);
+}
+.rectangleDiv2 {
+  top: calc(50% - 6px);
+  background-color: #414141;
+  width: 4px;
+  height: 12px;
+}
+.rectangleIcon {
+  top: calc(50% - 7px);
+  width: 5px;
+  height: 14px;
+}
+.connectingPointsDiv {
+  position: absolute;
+  top: calc(50% - 16.5px);
+  left: -15px;
+  width: 32px;
+  height: 32px;
+}
+.workflowNoYesDefaultConfigDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5529px;
+  height: 1045px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 623px;
+  left: 81px;
+  border-radius: 5px;
+  width: 179px;
+  height: 94px;
+}
+.vectorIcon1 {
+  height: 389px;
+}
+.connectingPointsIcon1 {
+  position: absolute;
+  top: calc(50% - 16px);
+  right: -15px;
+  width: 32px;
+  height: 32px;
+}
+.connectingPointsDiv1 {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: -15px;
+  width: 32px;
+  height: 32px;
+}
+.workflowNoYesDefaultConfigDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5129px;
+  height: 724px;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  top: 529px;
+  left: 281px;
+  border-radius: 5px;
+  width: 179px;
+  height: 58px;
+}
+.vectorIcon3 {
+  height: 134px;
+}
+.connectorIcon,
+.workflowNoYesDefaultConfigDiv2 {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 830px;
+  height: 212px;
+}
+.connectorIcon {
+  top: 67px;
+  left: 0;
+  width: 59px;
+  height: 6px;
+}
+.taskNameThatIsLonger {
+  position: absolute;
+  width: calc(100% - -38px);
+  right: -19px;
+  bottom: -40px;
+  left: -19px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  font-weight: 600;
+  display: inline-block;
+  height: 32px;
+  -webkit-text-stroke: 2px #f5f5f5;
+}
+.rectangleDiv7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #db6b22;
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+}
+.iconGRIDSTARCUSTOMNodes3 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
+}
+.connectingPointsDiv3,
+.connectingPointsIcon3 {
+  position: absolute;
+  top: calc(50% - 16px);
+  width: 32px;
+  height: 32px;
+}
+.connectingPointsIcon3 {
+  right: -16px;
+}
+.connectingPointsDiv3 {
+  left: -16px;
+}
+.labelDiv1 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+}
+.badgeDiv {
+  position: absolute;
+  top: -8px;
+  right: -7px;
+  border-radius: 8px;
+  background-color: #414141;
+  height: 16px;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  padding: 0 4px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  font-size: 10px;
+  color: #fff;
+}
+.connectorIcon1,
+.taskDiv {
+  position: absolute;
+  top: 30.94px;
+  left: 58px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon1 {
+  top: 55.94px;
+  left: 118px;
+  width: 50px;
+  height: 10px;
+}
+.taskNameThatIsLonger1 {
+  position: absolute;
+  width: calc(100% - -38px);
+  right: -19px;
+  bottom: -40px;
+  left: -19px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  font-weight: 600;
+  display: none;
+  height: 32px;
+  -webkit-text-stroke: 2px #f5f5f5;
+}
+.rectangleDiv9 {
+  position: absolute;
+  height: 77.78%;
+  width: 77.78%;
+  top: -5%;
+  right: -27.78%;
+  bottom: 27.22%;
+  left: 50%;
+  border-radius: 2px;
+  background-color: #db6b22;
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+.connectingPointsIcon4,
+.connectingPointsIcon6 {
+  position: absolute;
+  top: calc(50% - 46px);
+  right: 14px;
+  width: 32px;
+  height: 32px;
+}
+.connectingPointsIcon6 {
+  top: calc(50% - -14px);
+}
+.taskDiv1 {
+  position: absolute;
+  top: 30.94px;
+  left: 168px;
+  width: 60px;
+  height: 60px;
+}
+.textDiv,
+.vectorIcon4 {
+  position: absolute;
+  left: 4px;
+}
+.vectorIcon4 {
+  width: calc(100% - 9px);
+  top: 50%;
+  right: 5px;
+  border-radius: 5px;
+  max-width: 100%;
+  height: 0;
+}
+.textDiv {
+  width: calc(100% - 11px);
+  top: calc(50% - 9px);
+  right: 7px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 3px #f5f5f5;
+}
+.connectorDiv {
+  position: absolute;
+  top: 55.94px;
+  left: 228px;
+  width: 182px;
+  height: 10px;
+  font-size: 10px;
+}
+.taskDiv2 {
+  position: absolute;
+  top: 30.94px;
+  left: 410px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon2,
+.taskDiv3 {
+  position: absolute;
+  top: 55.94px;
+  left: 470px;
+  width: 50px;
+  height: 10px;
+}
+.taskDiv3 {
+  top: 30.94px;
+  left: 520px;
+  width: 60px;
+  height: 60px;
+}
+.vectorIcon5 {
+  height: calc(100% - -104.06px);
+  width: calc(100% - 165px);
+  top: 31px;
+  right: -18px;
+  bottom: -135.06px;
+  left: 183px;
+  max-width: 100%;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7 {
+  position: absolute;
+  border-radius: 5px;
+  max-height: 100%;
+}
+.vectorIcon6 {
+  height: calc(100% - 26.94px);
+  top: 14.94px;
+  bottom: 12px;
+  left: 39px;
+  width: 46px;
+}
+.vectorIcon7 {
+  height: calc(100% - -108.06px);
+  width: calc(100% - 175px);
+  top: 7.94px;
+  right: 1px;
+  bottom: -116px;
+  left: 174px;
+  max-width: 100%;
+}
+.groupDiv5 {
+  position: absolute;
+  height: calc(100% - 30px);
+  width: calc(100% - 626px);
+  top: 0;
+  right: 611px;
+  bottom: 30px;
+  left: 15px;
+  font-size: 10px;
+}
+.vectorIcon8 {
+  height: calc(100% - -83.88px);
+  width: calc(100% - 142px);
+  top: 31px;
+  right: -18.61px;
+  bottom: -114.88px;
+  left: 160.61px;
+  max-width: 100%;
+}
+.vectorIcon10,
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  border-radius: 5px;
+  max-height: 100%;
+}
+.vectorIcon9 {
+  height: calc(100% - 50.33px);
+  top: 14.94px;
+  bottom: 35.39px;
+  left: 15px;
+  width: 46px;
+}
+.vectorIcon10 {
+  height: calc(100% - -87.39px);
+  width: calc(100% - 152px);
+  top: 7.94px;
+  right: -0.71px;
+  bottom: -95.32px;
+  left: 152.71px;
+  max-width: 100%;
+}
+.plotNotOptimized {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 3px #f5f5f5;
+}
+.connectorDiv1,
+.groupDiv6 {
+  position: absolute;
+  font-size: 10px;
+}
+.groupDiv6 {
+  height: calc(100% - 30px);
+  width: calc(100% - 649px);
+  top: 0;
+  right: 259px;
+  bottom: 30px;
+  left: 390px;
+}
+.connectorDiv1 {
+  top: 55.94px;
+  left: 580px;
+  width: 106px;
+  height: 10px;
+}
+.rectangleDiv16 {
+  position: absolute;
+  height: 76.67%;
+  width: 76.67%;
+  top: 11.67%;
+  right: 11.67%;
+  bottom: 11.67%;
+  left: 11.67%;
+  border-radius: 2px;
+  background-color: #73bf9c;
+  border: 1px solid #414141;
+  box-sizing: border-box;
+  display: none;
+}
+.shapeIcon {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  right: 25%;
+  bottom: 25%;
+  left: 25%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.taskDiv4 {
+  position: absolute;
+  top: 30.94px;
+  left: 686px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon3 {
+  position: relative;
+  width: 68px;
+  height: 9px;
+  flex-shrink: 0;
+}
+.frameDiv10 {
+  position: absolute;
+  top: 53px;
+  left: 746px;
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv4 {
+  position: absolute;
+  top: 65px;
+  left: 12px;
+  width: 814px;
+  height: 90.94px;
+  text-align: center;
+}
+.groupDiv3,
+.ratingCalcDiv,
+.ratingCalcDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 844px;
+  height: 211px;
+}
+.groupDiv3,
+.ratingCalcDiv1 {
+  top: 210px;
+}
+.groupDiv3 {
+  top: 82px;
+  left: 3145px;
+  height: 421px;
+}
+.rectangleIcon14 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 2px);
+  width: 6px;
+  height: 16px;
+}
+.workflowNoYesDefaultConfigDiv4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1703px;
+  height: 456px;
+  text-align: left;
+  font-size: 11px;
+}
+.rectangleIcon15 {
+  position: absolute;
+  height: calc(100% - 1px);
+  width: calc(100% - 1px);
+  top: 0.5px;
+  right: 0.5px;
+  bottom: 0.5px;
+  left: 0.5px;
+  border-radius: 4px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frameDiv16 {
+  position: absolute;
+  top: 26px;
+  left: 53px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: left;
+  font-size: 11px;
+}
+.iconGRIDSTARCUSTOMNodes15 {
+  position: absolute;
+  top: 17px;
+  left: 11px;
+  width: 32px;
+  height: 32px;
+}
+.buttonDiv18 {
+  border-radius: 2px;
+  justify-content: center;
+}
+.buttonDiv18,
+.frameDiv17,
+.watchInputDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.watchInputDiv {
+  border-radius: 3px;
+  justify-content: flex-start;
+}
+.frameDiv17 {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  justify-content: flex-end;
+  opacity: 0;
+}
+.connectingPointsDiv15,
+.groupIcon {
+  position: absolute;
+  top: calc(50% - 16px);
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.connectingPointsDiv15 {
+  left: -15px;
+}
+.groupIcon {
+  right: -15px;
+}
+.iconGRIDSTARCUSTOMAddS,
+.rectangleDiv34 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangleDiv34 {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px dashed #414141;
+  box-sizing: border-box;
+}
+.iconGRIDSTARCUSTOMAddS {
+  max-width: 100%;
+  max-height: 100%;
+}
+.oUTDiv {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.rectangleDiv35 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #414141;
+}
+.b {
+  position: absolute;
+  height: 46.67%;
+  width: 50%;
+  top: 22.5%;
+  right: 25%;
+  bottom: 30.83%;
+  left: 25%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oUTDiv1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: #fff;
+}
+.frameDiv18,
+.rectangleDiv36 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.rectangleDiv36 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #414141;
+}
+.frameDiv18 {
+  height: calc(100% - 6px);
+  top: 3px;
+  right: -7px;
+  bottom: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 4px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.iconGRIDSTARCUSTOMAddS1,
+.rectangleDiv38 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.rectangleDiv38 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: #f5f5f5;
+  border: 1px dashed #414141;
+  box-sizing: border-box;
+}
+.iconGRIDSTARCUSTOMAddS1 {
+  height: 80%;
+  top: 10%;
+  bottom: 10%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iNDiv {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.rectangleDiv39 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #414141;
+}
+.b3 {
+  position: absolute;
+  height: 70%;
+  width: 37.5%;
+  top: 15%;
+  right: 31.25%;
+  bottom: 15%;
+  left: 31.25%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iNDiv1 {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  flex-shrink: 0;
+  color: #fff;
+}
+.rectangleDiv40,
+.rectangleDiv41 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f5f5f5;
+  border: 1px solid #414141;
+  box-sizing: border-box;
+}
+.rectangleDiv41 {
+  border: 1px solid #2064b4;
+}
+.iNDiv3 {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.frameDiv19 {
+  position: absolute;
+  top: calc(50% - 53px);
+  left: -7px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 4px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.dRAFTB {
+  position: absolute;
+  height: 5.07%;
+  width: 4.48%;
+  top: -2.17%;
+  right: 92.93%;
+  bottom: 97.1%;
+  left: 2.58%;
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-text-stroke: 4px #f5f5f5;
+}
+.workflowNoYesDefaultPublisDiv {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 736px;
+  height: 276px;
+}
+.connectorIcon8,
+.taskDiv10 {
+  position: absolute;
+  top: 21.25px;
+  left: 0;
+  width: 50px;
+  height: 14.27px;
+}
+.taskDiv10 {
+  top: 0;
+  left: 50px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon9,
+.rectangleIcon18 {
+  position: absolute;
+  top: 24.48px;
+  left: 110px;
+  width: 50px;
+  height: 11.05px;
+}
+.rectangleIcon18 {
+  height: 147.81%;
+  width: 147.81%;
+  top: -23.91%;
+  right: -23.91%;
+  bottom: -23.91%;
+  left: -23.91%;
+  border-radius: 4px;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.4;
+}
+.connectingPointsIcon27 {
+  position: absolute;
+  top: calc(50% - -14px);
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.taskDiv11 {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  width: 60px;
+  height: 60px;
+}
+.vectorIcon20 {
+  position: absolute;
+  height: 110.46%;
+  width: calc(100% - 8.25px);
+  top: -5.23%;
+  right: 4.25px;
+  bottom: -5.23%;
+  left: 4px;
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.connectorDiv4 {
+  position: absolute;
+  top: 25px;
+  left: 220px;
+  width: 50px;
+  height: 10px;
+  font-size: 10px;
+}
+.connectorIcon10,
+.taskDiv12 {
+  position: absolute;
+  top: 0;
+  left: 270px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon10 {
+  top: 24.48px;
+  left: 330px;
+  width: 50px;
+  height: 11.05px;
+}
+.connectorIcon11,
+.taskDiv13 {
+  position: absolute;
+  top: 0;
+  left: 380px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon11 {
+  top: 24.48px;
+  left: 440px;
+  width: 50px;
+  height: 11.05px;
+}
+.connectorIcon12,
+.taskDiv14 {
+  position: absolute;
+  top: 0;
+  left: 490px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon12 {
+  top: 24.48px;
+  left: 550px;
+  width: 50px;
+  height: 11.05px;
+}
+.groupDiv12,
+.taskDiv15 {
+  position: absolute;
+  top: 0;
+  left: 600px;
+  width: 60px;
+  height: 60px;
+}
+.groupDiv12 {
+  top: 63px;
+  left: 0;
+  width: 660px;
+  font-size: 11px;
+}
+.vectorIcon21,
+.vectorIcon22,
+.vectorIcon23 {
+  position: absolute;
+  border-radius: 5px;
+  max-height: 100%;
+}
+.vectorIcon21 {
+  height: calc(100% - 46.25px);
+  width: calc(100% - 18.25px);
+  top: 0.25px;
+  right: 4.25px;
+  bottom: 46px;
+  left: 14px;
+  max-width: 100%;
+}
+.vectorIcon22,
+.vectorIcon23 {
+  left: 0.75px;
+}
+.vectorIcon22 {
+  height: calc(100% - 7.98px);
+  top: 7.5px;
+  bottom: 0.48px;
+  width: 27px;
+}
+.vectorIcon23 {
+  height: calc(100% - 56.75px);
+  width: calc(100% - 14.75px);
+  top: 0.25px;
+  right: 14px;
+  bottom: 56.5px;
+  max-width: 100%;
+}
+.textDiv7 {
+  position: absolute;
+  width: calc(100% - -4px);
+  top: -7px;
+  right: 0;
+  left: -4px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 3px #f5f5f5;
+}
+.connectorDiv5 {
+  position: absolute;
+  top: 27px;
+  left: 18px;
+  width: 177px;
+  height: 72px;
+}
+.vectorIcon24,
+.vectorIcon25,
+.vectorIcon26 {
+  position: absolute;
+  border-radius: 5px;
+  max-height: 100%;
+}
+.vectorIcon24 {
+  height: calc(100% - 12.25px);
+  width: calc(100% - 22.25px);
+  top: 7.25px;
+  right: 4.25px;
+  bottom: 5px;
+  left: 18px;
+  max-width: 100%;
+}
+.vectorIcon25,
+.vectorIcon26 {
+  left: 4.75px;
+}
+.vectorIcon25 {
+  height: calc(100% - 8.98px);
+  top: 14.5px;
+  bottom: -5.52px;
+  width: 27px;
+}
+.vectorIcon26 {
+  height: calc(100% - 57.75px);
+  width: calc(100% - 18.75px);
+  top: 7.25px;
+  right: 14px;
+  bottom: 50.5px;
+  max-width: 100%;
+}
+.groupDiv13 {
+  position: absolute;
+  height: calc(100% - 94px);
+  width: calc(100% - 62px);
+  top: 0;
+  right: 48px;
+  bottom: 94px;
+  left: 14px;
+}
+.vectorIcon27 {
+  position: absolute;
+  height: calc(100% - 6.5px);
+  top: 7.25px;
+  bottom: -0.75px;
+  left: 8.25px;
+  border-radius: 4px;
+  max-height: 100%;
+  width: 172.5px;
+}
+.pdcPdcPrecalcNominal1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 56px;
+  left: 0;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 3px #f5f5f5;
+}
+.groupDiv14 {
+  position: absolute;
+  height: calc(100% - 117px);
+  top: 23px;
+  bottom: 94px;
+  left: 450px;
+  width: 201px;
+}
+.vectorIcon28 {
+  position: absolute;
+  width: calc(100% - 2px);
+  right: 2.75px;
+  bottom: 5.25px;
+  left: -0.75px;
+  border-radius: 5px;
+  max-width: 100%;
+  height: 117.27px;
+}
+.groupDiv15,
+.pdcPdcPrecalcTCP0 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.pdcPdcPrecalcTCP0 {
+  width: calc(100% - 20.5px);
+  left: 20.5px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 2px #f5f5f5;
+}
+.groupDiv15 {
+  width: calc(100% - 190.5px);
+  left: 190.5px;
+  height: 117px;
+}
+.groupDiv11,
+.nominalCalcRect {
+  position: absolute;
+  top: 65px;
+  left: 19px;
+  width: 713px;
+  height: 187px;
+}
+.nominalCalcRect {
+  top: 98px;
+  left: 100px;
+  width: 750px;
+  height: 276px;
+}
+.rectangleIcon24 {
+  position: absolute;
+  height: calc(100% - 1px);
+  width: calc(100% - 2px);
+  top: 0.5px;
+  right: 1.5px;
+  bottom: 0.5px;
+  left: 0.5px;
+  border-radius: 4px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.connectingPointsDiv22,
+.groupIcon1 {
+  position: absolute;
+  top: calc(50% - 15.5px);
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.connectingPointsDiv22 {
+  left: -15px;
+}
+.groupIcon1 {
+  right: -15px;
+}
+.frameDiv23 {
+  position: absolute;
+  top: calc(50% - 52.5px);
+  left: -7px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 4px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.dRAFTB1,
+.workflowNoYesDefaultPublisDiv1 {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 714px;
+  height: 247px;
+}
+.dRAFTB1 {
+  height: 5.93%;
+  width: 4.53%;
+  top: -2.54%;
+  right: 91.62%;
+  bottom: 96.61%;
+  left: 3.85%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 4px #f5f5f5;
+}
+.connectorIcon13 {
+  position: absolute;
+  top: 70.25px;
+  left: 0;
+  width: 58px;
+  height: 12.27px;
+}
+.connectorIcon14,
+.taskDiv16 {
+  position: absolute;
+  top: 47px;
+  left: 58.13px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon14 {
+  top: 71.48px;
+  left: 118.13px;
+  width: 50px;
+  height: 11.05px;
+}
+.connectingPointsIcon35 {
+  position: absolute;
+  top: calc(50% - 46px);
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.connectorDiv6,
+.taskDiv17 {
+  position: absolute;
+  top: 47px;
+  left: 168.13px;
+  width: 60px;
+  height: 60px;
+}
+.connectorDiv6 {
+  top: 72px;
+  left: 228.13px;
+  width: 126px;
+  height: 10px;
+  font-size: 10px;
+}
+.taskDiv18 {
+  position: absolute;
+  top: 47px;
+  left: 354.13px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon15,
+.taskDiv19 {
+  position: absolute;
+  top: 71.48px;
+  left: 414.13px;
+  width: 50px;
+  height: 11.05px;
+}
+.taskDiv19 {
+  top: 47px;
+  left: 464.13px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon16,
+.taskDiv20 {
+  position: absolute;
+  top: 137px;
+  left: 540.13px;
+  width: 50px;
+  height: 10px;
+}
+.taskDiv20 {
+  top: 47px;
+  left: 574.13px;
+  width: 60px;
+  height: 60px;
+}
+.vectorIcon30 {
+  position: absolute;
+  height: calc(100% - 87.5px);
+  top: 7.25px;
+  bottom: 80.25px;
+  left: 27.25px;
+  border-radius: 4px;
+  max-height: 100%;
+  width: 606px;
+}
+.vectorIcon31 {
+  position: absolute;
+  top: 50.48px;
+  left: 197.38px;
+  border-radius: 5px;
+  width: 491.34px;
+  height: 102.27px;
+}
+.pdcPdcPrecalc,
+.rpnnRpnn1 {
+  position: absolute;
+  top: 144px;
+  left: 389.13px;
+  font-size: 10px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 3px #f5f5f5;
+}
+.pdcPdcPrecalc {
+  top: 0;
+  left: 311.13px;
+}
+.vectorIcon32 {
+  position: absolute;
+  height: calc(100% - 4.5px);
+  top: 5.25px;
+  bottom: -0.75px;
+  left: -0.75px;
+  border-radius: 4px;
+  max-height: 100%;
+  width: 178px;
+}
+.pdcPdcPrecalc1 {
+  position: absolute;
+  top: 0;
+  left: 37px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  display: inline-block;
+  -webkit-text-stroke: 3px #f5f5f5;
+}
+.groupDiv17 {
+  position: absolute;
+  height: calc(100% - 93px);
+  top: 23px;
+  bottom: 70px;
+  left: 426.13px;
+  width: 178px;
+  font-size: 10px;
+}
+.groupDiv16 {
+  position: absolute;
+  top: 65px;
+  left: 16px;
+  width: 689.48px;
+  height: 158px;
+  font-size: 11px;
+}
+.connectorIO,
+.nominalCalcInv {
+  position: absolute;
+  top: 113px;
+  left: 915px;
+  width: 728px;
+  height: 247px;
+}
+.connectorIO {
+  top: 222.48px;
+  left: 9px;
+  width: 81.75px;
+  height: 11.05px;
+}
+.connectorIO1,
+.connectorIO2 {
+  position: absolute;
+  top: 543px;
+  left: 3328px;
+  width: 76px;
+  height: 0;
+}
+.connectorIO2 {
+  top: 238.48px;
+  left: 854.68px;
+  width: 49.07px;
+  height: 24.77px;
+}
+.connectorIO3,
+.connectorIO4,
+.connectorIO5,
+.connectorIO6 {
+  position: absolute;
+  top: 423px;
+  left: 3424px;
+  width: 178px;
+  height: 120px;
+}
+.connectorIO4,
+.connectorIO5,
+.connectorIO6 {
+  top: 527px;
+  left: 4457px;
+}
+.connectorIO5,
+.connectorIO6 {
+  top: 543px;
+  left: 3424px;
+  height: 91px;
+}
+.connectorIO6 {
+  top: 437px;
+  left: 4457px;
+  height: 90px;
+}
+.connectorIO7,
+.connectorIO8 {
+  position: absolute;
+  top: 542px;
+  left: 5209px;
+  width: 181px;
+  height: 0;
+}
+.connectorIO8 {
+  top: 69.25px;
+  left: 9px;
+  width: 894.75px;
+  height: 180.27px;
+}
+.connectorIO9,
+.groupDiv10 {
+  position: absolute;
+  top: 88.25px;
+  left: 854px;
+  width: 836px;
+  height: 175px;
+}
+.groupDiv10 {
+  top: 54px;
+  left: 1242px;
+  width: 3676px;
+  height: 456px;
+  text-align: center;
+  font-size: 10px;
+}
+.connectorIcon17,
+.workflowNoYesDefaultConfigDiv5 {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 1050px;
+  height: 181px;
+}
+.connectorIcon17 {
+  top: 90px;
+  left: 12px;
+  width: 50px;
+  height: 10px;
+}
+.connectorIcon18,
+.connectorIcon19,
+.rectangleDiv79 {
+  position: absolute;
+  top: 90px;
+  left: 122px;
+  width: 50px;
+  height: 10px;
+}
+.connectorIcon19,
+.rectangleDiv79 {
+  left: 232px;
+}
+.rectangleDiv79 {
+  height: 126.67%;
+  width: 126.67%;
+  top: -13.33%;
+  right: -13.33%;
+  bottom: -13.33%;
+  left: -13.33%;
+  border-radius: 12px;
+  background-color: #db6b22;
+  opacity: 0.4;
+}
+.iconGRIDSTARCUSTOMNodes31 {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon20 {
+  position: absolute;
+  top: 90px;
+  left: 342px;
+  width: 50px;
+  height: 10px;
+}
+.connectorIcon21,
+.connectorIcon22,
+.connectorIcon23 {
+  position: absolute;
+  top: 90px;
+  left: 452px;
+  width: 50px;
+  height: 10px;
+}
+.connectorIcon22,
+.connectorIcon23 {
+  left: 562px;
+}
+.connectorIcon23 {
+  left: 672px;
+}
+.iconGRIDSTARCUSTOMNodes35,
+.taskDiv27 {
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 60px;
+}
+.iconGRIDSTARCUSTOMNodes35 {
+  left: calc(50% - 24px);
+}
+.taskDiv27 {
+  left: 710px;
+}
+.connectorIcon24,
+.taskDiv28 {
+  position: absolute;
+  top: 24.48px;
+  left: 770px;
+  width: 50px;
+  height: 11.05px;
+}
+.taskDiv28 {
+  top: 0;
+  left: 820px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon25,
+.taskDiv29 {
+  position: absolute;
+  top: 24.48px;
+  left: 880px;
+  width: 50px;
+  height: 11.05px;
+}
+.taskDiv29 {
+  top: 0;
+  left: 930px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon26,
+.groupDiv19 {
+  position: absolute;
+  top: 24.48px;
+  left: 990px;
+  width: 50px;
+  height: 11.05px;
+}
+.groupDiv19 {
+  top: 65px;
+  left: 12px;
+  width: 1040px;
+  height: 60px;
+  text-align: center;
+}
+.groupDiv18,
+.precalcDiv,
+.precalcDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1064px;
+  height: 181px;
+}
+.groupDiv18,
+.precalcDiv1 {
+  top: 192px;
+}
+.groupDiv18 {
+  top: 138px;
+  height: 373px;
+}
+.connectorIO10,
+.connectorIO11 {
+  position: absolute;
+  top: 223.25px;
+  left: 1067px;
+  width: 162.75px;
+  height: 63.27px;
+}
+.connectorIO11 {
+  top: 38px;
+  left: 1070px;
+  width: 2060px;
+  height: 207px;
+}
+.connectorIO12,
+.connectorIO13 {
+  position: absolute;
+  top: 381.48px;
+  left: 1066.5px;
+  width: 2063.5px;
+  height: 164.27px;
+}
+.connectorIO13 {
+  top: 275.48px;
+  left: 1067px;
+  width: 162.75px;
+  height: 141.27px;
+}
+.workflowNoYesDefaultConfigDiv7 {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 512px;
+  height: 572px;
+}
+.connectorIcon37,
+.taskDiv39 {
+  position: absolute;
+  top: 268px;
+  left: 0;
+  width: 56px;
+  height: 23px;
+}
+.taskDiv39 {
+  top: 215px;
+  left: 56px;
+  width: 60px;
+  height: 60px;
+}
+.connectorIcon38,
+.taskDiv40 {
+  position: absolute;
+  top: 240px;
+  left: 116px;
+  width: 50px;
+  height: 10px;
+}
+.taskDiv40 {
+  top: 215px;
+  left: 166px;
+  width: 60px;
+  height: 60px;
+}
+.groupIcon2,
+.rectangleDiv121 {
+  position: absolute;
+  top: 42px;
+  left: 226px;
+  width: 60px;
+  height: 406px;
+}
+.rectangleDiv121 {
+  height: 76.67%;
+  width: 76.67%;
+  top: 11.67%;
+  right: 11.67%;
+  bottom: 11.67%;
+  left: 11.67%;
+  border-radius: 2px;
+  background-color: #5cd1b2;
+  border: 1px solid #414141;
+  box-sizing: border-box;
+  display: none;
+}
+.connectorIcon39,
+.taskDiv41 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.connectorIcon39 {
+  width: 50px;
+  height: 10px;
+}
+.rectangleDiv127 {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  background-color: #9672c1;
+  display: none;
+}
+.unionIcon1 {
+  position: absolute;
+  height: 46.41%;
+  width: 50.17%;
+  top: 25%;
+  right: 24.27%;
+  bottom: 28.59%;
+  left: 25.56%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frameDiv30,
+.frameDiv31 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv30 {
+  position: absolute;
+  top: 0;
+  left: 286px;
+  flex-direction: column;
+  padding: 19px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: 38px;
+}
+.groupDiv21 {
+  position: absolute;
+  top: 45px;
+  left: 12px;
+  width: 456px;
+  height: 490px;
+  text-align: center;
+}
+.groupDiv2,
+.postProcessingDiv,
+.stationDiv {
+  position: absolute;
+  top: 0;
+  left: 4177px;
+  width: 581px;
+  height: 564px;
+}
+.groupDiv2,
+.stationDiv {
+  top: 80px;
+  left: 200px;
+  width: 4918px;
+}
+.stationDiv {
+  width: 5129px;
+  height: 724px;
+}
+.workflowNameThatIsLong10 {
+  position: absolute;
+  width: calc(100% - -26px);
+  right: -13px;
+  bottom: -32px;
+  left: -13px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  font-weight: 600;
+  display: inline-block;
+  height: 28px;
+  -webkit-text-stroke: 5px #f5f5f5;
+}
+.iconGRIDSTARCUSTOMNodes57 {
+  position: absolute;
+  top: 11px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
+}
+.buttonDiv38,
+.buttonDiv39 {
+  position: absolute;
+  top: 1px;
+  border-radius: 2px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonDiv38 {
+  right: -37px;
+}
+.buttonDiv39 {
+  left: 1px;
+}
+.connectingPointsDiv57 {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: -15px;
+  width: 32px;
+  height: 32px;
+}
+.workflowNonoDefaultConfigDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.mCPStationDiv {
+  position: absolute;
+  top: 884px;
+  left: 200px;
+  width: 82px;
+  height: 82px;
+  text-align: center;
+}
+.connectorIO14 {
+  position: absolute;
+  top: 542px;
+  left: 5408px;
+  width: 178px;
+  height: 68px;
+}
+.connectorIO15,
+.groupDiv1 {
+  position: absolute;
+  top: 517.48px;
+  left: 1128px;
+  width: 5221.5px;
+  height: 402px;
+}
+.groupDiv1 {
+  top: 87px;
+  left: 72px;
+  width: 5529px;
+  height: 1045px;
+}
+.groupDiv,
+.mCPV3Div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5719px;
+  height: 1232px;
+}
+.mCPV3Div {
+  top: -285px;
+  left: -1200px;
+  width: 5716px;
+  overflow: hidden;
+}
+.frameDiv3 {
+  flex: 1;
+  align-self: stretch;
+  position: relative;
+  overflow: auto;
+  z-index: 1;
+  font-size: 11px;
+}
+.iconDirectionsBackwards {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.buttonDiv40 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  width: 48px;
+  height: 439px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.tuneUtnDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.frameDiv33 {
+  position: absolute;
+  top: 8px;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.frameDiv32 {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  border-top: 2px solid #db6b22;
+  border-right: 0 solid #db6b22;
+  border-bottom: 0 solid #db6b22;
+  border-left: 0 solid #db6b22;
+  box-sizing: border-box;
+  width: 48px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.frameDiv36,
+.inputBox {
+  display: flex;
+  justify-content: flex-start;
+}
+.inputBox {
+  border: 0;
+  background-color: transparent;
+  width: 300px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameDiv36 {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.labelDiv32 {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #414141;
+  text-align: left;
+  display: inline-block;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 10px 0 0;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.divider {
+  background-color: #e8e8e8;
+  width: 1px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.frameDiv38 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button4,
+.frameDiv37 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 2px;
+  justify-content: center;
+}
+.frameDiv37 {
+  justify-content: flex-end;
+  gap: 8px;
+}
+.frameDiv35,
+.sectionTitleDiv {
+  align-self: stretch;
+  position: relative;
+}
+.frameDiv35 {
+  border-top: 0 solid #e8e8e8;
+  border-right: 0 solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 0 solid #e8e8e8;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.sectionTitleDiv {
+  letter-spacing: 0.36px;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+}
+.inputBox1,
+.labelDiv33 {
+  flex-shrink: 0;
+  display: flex;
+}
+.labelDiv33 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  align-items: center;
+  width: 12px;
+}
+.inputBox1 {
+  border: 0;
+  background-color: transparent;
+  width: 1125px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectorIcon40,
+.iconGRIDSTARCUSTOMNodes60 {
+  position: relative;
+  width: 60px;
+  height: 11.05px;
+  flex-shrink: 0;
+}
+.iconGRIDSTARCUSTOMNodes60 {
+  border-radius: 3px 0 0 3px;
+  width: 32px;
+  height: 32px;
+  z-index: 1;
+}
+.dropDownInput,
+.selectTargetnodeDiv {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropDownInput {
+  flex-direction: column;
+  gap: 6px;
+  z-index: 0;
+  margin-left: -3px;
+}
+.selectTargetnodeDiv {
+  flex-direction: row;
+  cursor: pointer;
+}
+.button7,
+.frameDiv41 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv41 {
+  flex: 1;
+  justify-content: flex-start;
+}
+.button7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 2px;
+  width: 32px;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.frameDiv40,
+.frameDiv45,
+.inputBox2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv40 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.frameDiv45,
+.inputBox2 {
+  flex: 1;
+  align-items: flex-start;
+}
+.inputBox2 {
+  border: 0;
+  background-color: transparent;
+  flex-direction: column;
+}
+.frameDiv45 {
+  flex-direction: row;
+}
+.iconGRIDSTARCUSTOMNodes62 {
+  position: relative;
+  border-radius: 3px 0 0 3px;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: none;
+  z-index: 1;
+}
+.button10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 10px 0 20px;
+  background-color: transparent;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.expressionBuilder1 {
+  flex: 1;
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.expressionBuilder1,
+.frameDiv39 {
+  flex-direction: column;
+}
+.dataManipulationTaskPopup,
+.frameDiv34,
+.frameDiv39,
+.frameInnerDiv {
+  flex: 1;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dataManipulationTaskPopup {
+  background-color: #fff;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.frameDiv34,
+.frameInnerDiv {
+  flex-direction: row;
+}
+.frameDiv34 {
+  background-color: #fff;
+  border-top: 2px solid #db6b22;
+  border-right: 0 solid #db6b22;
+  border-bottom: 0 solid #db6b22;
+  border-left: 0 solid #db6b22;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: column;
+  text-align: left;
+}
+.tuneUtnDiv1 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+.frameDiv53 {
+  flex: 1;
+  position: relative;
+  background-color: #fff;
+  border-top: 2px solid #db6b22;
+  border-right: 0 solid #db6b22;
+  border-bottom: 0 solid #db6b22;
+  border-left: 0 solid #db6b22;
+  box-sizing: border-box;
+  width: 48px;
+}
+.iconGRIDSTARCUSTOMNodes64 {
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 16px);
+  width: 32px;
+  height: 32px;
+}
+.tuneRtnDiv {
+  position: absolute;
+  top: 45px;
+  left: 31px;
+  letter-spacing: 0.36px;
+  line-height: 14px;
+  font-weight: 600;
+  display: inline-block;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.frameDiv55 {
+  flex: 1;
+  position: relative;
+  background-color: #fff;
+  width: 48px;
+}
+.frameDiv52 {
+  height: 400px;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 11px;
+}
+.controlPanelConfiguration,
+.frameDiv,
+.frameDiv52 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.controlPanelConfiguration {
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+  width: 1920px;
+  height: 400px;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: 8px;
+  z-index: 0;
+  text-align: center;
+  font-size: 12px;
+}
+.frameDiv {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 1080px;
+  flex-direction: column;
+  padding: 53px 0 0;
+  box-sizing: border-box;
+}
+.highlightDiv {
+  align-self: stretch;
+  background-color: #414141;
+  height: 4px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.labelDiv37 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  display: none;
+}
+.buttonDiv44,
+.component1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.buttonDiv44 {
+  border-radius: 2px;
+  width: 126px;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.component1Icon {
+  height: 100%;
+  width: 28.07%;
+  right: 71.93%;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.gridstarDiv {
+  position: absolute;
+  height: 137.5%;
+  width: 102.63%;
+  top: -18.75%;
+  right: -2.63%;
+  bottom: -18.75%;
+  left: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+.gridStarDiv,
+.groupDiv23 {
+  position: absolute;
+  height: 50%;
+  width: 66.67%;
+  top: 26.99%;
+  right: 0;
+  bottom: 23.01%;
+  left: 33.33%;
+}
+.groupDiv23 {
+  height: 100%;
+  width: 90.48%;
+  top: 0;
+  right: 9.52%;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+}
+.borderIcon,
+.groupDiv22 {
+  position: relative;
+  width: 126px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.borderIcon {
+  width: 1px;
+  height: 20px;
+}
+.horizontalNavigationDiv1,
+.itemAutoLayout {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.itemAutoLayout {
+  width: 32px;
+  flex-direction: row;
+  padding: 2px 10px 2px 0;
+}
+.horizontalNavigationDiv1 {
+  border-radius: 2px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 2px 5px;
+}
+.rectangleDiv140 {
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: 100px;
+  background-color: #2064b4;
+}
+.gLB,
+.gLIcon,
+.rectangleDiv140 {
+  position: absolute;
+}
+.gLB {
+  height: 43.75%;
+  width: 40.63%;
+  top: 26.01%;
+  right: 29.69%;
+  bottom: 30.24%;
+  left: 29.69%;
+  text-transform: uppercase;
+  display: none;
+}
+.gLIcon {
+  height: 22.93%;
+  width: 37.41%;
+  top: 37.76%;
+  right: 30.93%;
+  bottom: 39.31%;
+  left: 31.66%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.textDiv9 {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #2064b4;
+  text-align: left;
+  display: inline-block;
+}
+.itemAutoLayout1 {
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.frameDiv59,
+.horizontalNavigationDiv2,
+.itemAutoLayout1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv59 {
+  height: 40px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 5px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.horizontalNavigationDiv2 {
+  border-radius: 2px;
+  background-color: #f4f7fb;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+.rectangleDiv141 {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: 100px;
+  background-color: #414141;
+}
+.p1Icon {
+  position: absolute;
+  height: 22.31%;
+  width: 29.72%;
+  top: 38.08%;
+  right: 36.22%;
+  bottom: 39.61%;
+  left: 34.06%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.horizontalNavigationDiv3,
+.itemAutoLayout2 {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.itemAutoLayout2 {
+  flex-direction: row;
+  padding: 2px 0;
+  align-items: center;
+  gap: 4px;
+}
+.horizontalNavigationDiv3 {
+  border-radius: 2px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 2px 5px 0;
+  align-items: flex-start;
+}
+.p2Icon {
+  position: absolute;
+  height: 22.63%;
+  width: 33.66%;
+  top: 37.76%;
+  right: 32.28%;
+  bottom: 39.61%;
+  left: 34.06%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frameDiv57,
+.frameDiv58 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameDiv57 {
+  gap: 20px;
+}
+.image3Icon {
+  border-radius: 100px;
+}
+.ellipseIcon,
+.image3Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.actionsDiv,
+.menuBarDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.actionsDiv {
+  justify-content: flex-end;
+  gap: 10px;
+}
+.menuBarDiv {
+  align-self: stretch;
+  padding: 4px 20px 4px 14px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.highlightDiv1 {
+  align-self: stretch;
+  background-color: #e8e8e8;
+  height: 1px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.horizontalNavigationDiv {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+.buttonDiv53 {
+  border-radius: 2px;
+  background-color: #db6b22;
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.openSelectionArea {
+  position: absolute;
+  top: 137px;
+  left: 1842px;
+  border-radius: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider1 {
+  align-self: stretch;
+  background-color: #f7f7f7;
+  height: 1px;
+  flex-shrink: 0;
+}
+.frameDiv63,
+.rectangleDiv143 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameDiv63 {
+  right: 0;
+  bottom: 50px;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleDiv143 {
+  top: 8px;
+  left: 8px;
+  border: 1px solid #414141;
+  width: 16px;
+  height: 16px;
+}
+.rectangleDiv144,
+.rectangleDiv145 {
+  position: absolute;
+  top: 5px;
+  left: 13px;
+  background-color: #c4c4c4;
+  width: 6px;
+  height: 22px;
+}
+.rectangleDiv145 {
+  top: 13px;
+  left: 6px;
+  width: 20px;
+  height: 6px;
+}
+.subtractDiv {
+  position: relative;
+  background-color: #414141;
+  width: 16px;
+  height: 16px;
+}
+.groupDiv25 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 16px;
+  height: 16px;
+}
+.frameDiv64 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv24 {
+  position: absolute;
+  right: 20px;
+  bottom: 420px;
+  box-shadow: 0 2px 12px rgba(65, 65, 65, 0.12);
+  width: 40px;
+  height: 123px;
+}
+.workspaceDiv {
+  position: relative;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 10px;
+  color: #414141;
+  font-family: "Open Sans";
+}

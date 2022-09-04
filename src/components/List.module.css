@@ -1,0 +1,57 @@
+.studiesDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+}
+.shapeIcon {
+  position: absolute;
+  height: 43.75%;
+  width: 50%;
+  top: 28.13%;
+  right: 25%;
+  bottom: 28.13%;
+  left: 25%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconToolsArchiveNew {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  position: relative;
+  border-radius: 2px;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.headerDiv {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 236px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.listDiv {
+  align-self: stretch;
+  position: relative;
+  background-color: #fff;
+  border-top: 0 solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 0 solid #000;
+  border-left: 0 solid #000;
+  box-sizing: border-box;
+  width: 260px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  color: #414141;
+  font-family: "Open Sans";
+}

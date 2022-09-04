@@ -1,0 +1,11 @@
+.itemsDiv {
+  position: absolute;
+  top: 47px;
+  left: calc(50% - 118px);
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}

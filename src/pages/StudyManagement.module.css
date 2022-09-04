@@ -1,0 +1,815 @@
+.rectangleDiv {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: 100px;
+  border: 1px solid #414141;
+  box-sizing: border-box;
+}
+.mCPB {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconGRIDSTARCUSTOMStudy {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.mainCircuitParameters {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+.labelDiv,
+.mainCircuitParameters {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.tagDiv {
+  background-color: #d3e9f6;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.iconControlsAdd {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.buttonDiv,
+.tagsDiv {
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv {
+  border-radius: 2px;
+  display: none;
+  justify-content: center;
+}
+.tagsDiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+  font-size: 12px;
+}
+.iconToolsEdit {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.buttonDiv1,
+.frameDiv4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv1 {
+  border-radius: 2px;
+  justify-content: center;
+}
+.frameDiv4 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.descriptionOfTheWorkflowAn {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  text-align: left;
+  display: inline-block;
+}
+.frameDiv3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.buttonDiv2 {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.frameDiv2,
+.frameDiv5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv5 {
+  text-align: left;
+  font-size: 12px;
+}
+.frameDiv2 {
+  align-self: stretch;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 40px;
+}
+.divider {
+  align-self: stretch;
+  background-color: #e8e8e8;
+  height: 1px;
+  flex-shrink: 0;
+}
+.titlebarTempalateLists {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider1 {
+  align-self: stretch;
+  background-color: #e8e8e8;
+  width: 1px;
+  flex-shrink: 0;
+}
+.descriptionOfTheWorkflowAn1,
+.groupDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.groupDiv {
+  font-weight: 600;
+}
+.descriptionOfTheWorkflowAn1 {
+  font-size: 12px;
+}
+.selectedB {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.buttonDiv4,
+.frameDiv12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv4 {
+  border-radius: 2px;
+  background-color: #f7f7f7;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 4px;
+  font-size: 12px;
+}
+.frameDiv12 {
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 10px;
+}
+.buttonDiv5,
+.iconDirectionsDropDown {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.buttonDiv5 {
+  width: 100%;
+  left: 0;
+  border-radius: 2px;
+  background-color: #2064b4;
+  display: flex;
+  flex-direction: row;
+  padding: 0 36px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.iconDirectionsDropDown {
+  width: 24.43%;
+  left: 75.57%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.newItemButton {
+  position: relative;
+  width: 131px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #fff;
+}
+.labelDiv5 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  display: none;
+}
+.inputAutoLayout {
+  align-self: stretch;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 10px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.assetSearchBoxInput,
+.assetsInputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assetsInputBox {
+  align-self: stretch;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.assetSearchBoxInput {
+  flex: 1;
+  color: #999;
+}
+.assetsFilterGroupInput {
+  border-radius: 2px;
+}
+.assetsFilterGroupInput,
+.frameDiv11,
+.frameDiv13,
+.searchAndFilter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv13 {
+  flex: 1;
+  gap: 10px;
+}
+.frameDiv11,
+.searchAndFilter {
+  width: 252px;
+  flex-shrink: 0;
+}
+.frameDiv11 {
+  width: 755px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 12px;
+}
+.titlebarTempalateLists1 {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.frameDiv15,
+.frameDiv16 {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.frameDiv15 {
+  width: 90px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameDiv16 {
+  flex-direction: row;
+}
+.frameDiv14,
+.frameDiv16 {
+  flex: 1;
+  justify-content: flex-start;
+}
+.buttonDiv6,
+.frameDiv14,
+.tableRowListAccess {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv6 {
+  border-radius: 2px;
+  justify-content: center;
+  opacity: 0;
+}
+.tableRowListAccess {
+  align-self: stretch;
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  height: 41px;
+  flex-shrink: 0;
+  padding: 0 12px;
+  justify-content: flex-start;
+}
+.mCTDiv {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.frameDiv21,
+.frameDiv23 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.frameDiv21 {
+  padding: 0 0 0 5px;
+  align-items: center;
+  gap: 10px;
+}
+.frameDiv23 {
+  padding: 10px;
+  align-items: flex-start;
+  color: #2d825d;
+}
+.mCTDiv7,
+.tableRowListAccess1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tableRowListAccess1 {
+  align-self: stretch;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  height: 41px;
+  flex-direction: row;
+  padding: 0 12px;
+  justify-content: flex-start;
+}
+.mCTDiv7 {
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  width: 231px;
+}
+.tableDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assetsDropDownField {
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.assetsInputBox1,
+.inputAutoLayout1,
+.visibilityDiv {
+  border-radius: 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+.visibilityDiv {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.assetsInputBox1,
+.inputAutoLayout1 {
+  align-items: flex-start;
+}
+.inputAutoLayout1 {
+  align-self: stretch;
+  background-color: #fff;
+  border: 1px solid #ccced0;
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  padding: 7px 10px;
+}
+.assetsInputBox1 {
+  width: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+.suffixDiv1 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  text-align: left;
+  display: inline-block;
+}
+.controlsDiv {
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  text-align: right;
+}
+.controlsDiv,
+.frameDiv159,
+.paginationDiv {
+  display: flex;
+  align-items: center;
+}
+.paginationDiv {
+  width: 480px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.frameDiv159 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 20px 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.frameDiv6,
+.frameDiv7 {
+  flex: 1;
+  align-self: stretch;
+}
+.frameDiv7 {
+  box-shadow: -1px 0 1px #e8e8e8;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv6 {
+  flex-direction: row;
+  text-align: left;
+  font-size: 12px;
+}
+.frameDiv,
+.frameDiv1,
+.frameDiv6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv1 {
+  flex: 1;
+  height: 1036px;
+  flex-direction: column;
+}
+.frameDiv {
+  position: absolute;
+  width: 100%;
+  top: 44px;
+  right: 0;
+  left: 0;
+  flex-direction: row;
+}
+.highlightDiv {
+  align-self: stretch;
+  background-color: #414141;
+  height: 4px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.buttonDiv38,
+.component1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.buttonDiv38 {
+  border-radius: 2px;
+  width: 126px;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.component1Icon {
+  height: 100%;
+  width: 28.07%;
+  right: 71.93%;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.gridstarDiv {
+  position: absolute;
+  height: 137.5%;
+  width: 102.63%;
+  top: -18.75%;
+  right: -2.63%;
+  bottom: -18.75%;
+  left: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+}
+.gridStarDiv,
+.groupDiv2 {
+  position: absolute;
+  height: 50%;
+  width: 66.67%;
+  top: 26.99%;
+  right: 0;
+  bottom: 23.01%;
+  left: 33.33%;
+}
+.groupDiv2 {
+  height: 100%;
+  width: 90.48%;
+  top: 0;
+  right: 9.52%;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+}
+.borderIcon,
+.groupDiv1 {
+  position: relative;
+  width: 126px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.borderIcon {
+  width: 0;
+  height: 20px;
+  display: none;
+}
+.horizontalNavigationDiv1,
+.itemAutoLayout {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.itemAutoLayout {
+  width: 32px;
+  flex-direction: row;
+  padding: 2px 10px 2px 0;
+}
+.horizontalNavigationDiv1 {
+  border-radius: 2px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 2px 5px;
+}
+.rectangleDiv1 {
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: 100px;
+  background-color: #414141;
+}
+.gLB,
+.gLIcon,
+.rectangleDiv1 {
+  position: absolute;
+}
+.gLB {
+  height: 43.75%;
+  width: 40.63%;
+  top: 26.01%;
+  right: 29.69%;
+  bottom: 30.24%;
+  left: 29.69%;
+  text-transform: uppercase;
+  display: none;
+}
+.gLIcon {
+  height: 22.93%;
+  width: 37.41%;
+  top: 37.76%;
+  right: 30.93%;
+  bottom: 39.31%;
+  left: 31.66%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.textDiv {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  color: #414141;
+  text-align: left;
+  display: inline-block;
+}
+.itemAutoLayout1 {
+  padding: 2px 0;
+  box-sizing: border-box;
+  gap: 4px;
+}
+.frameDiv162,
+.horizontalNavigationDiv2,
+.itemAutoLayout1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.horizontalNavigationDiv2 {
+  border-radius: 2px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 2px 5px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+.p1Icon {
+  position: absolute;
+  height: 22.31%;
+  width: 29.72%;
+  top: 38.08%;
+  right: 36.22%;
+  bottom: 39.61%;
+  left: 34.05%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.horizontalNavigationDiv3 {
+  border-radius: 2px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2px 5px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.p2Icon {
+  position: absolute;
+  height: 22.63%;
+  width: 33.66%;
+  top: 37.76%;
+  right: 32.28%;
+  bottom: 39.61%;
+  left: 34.05%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frameDiv165,
+.itemAutoLayout4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.itemAutoLayout4 {
+  gap: 4px;
+}
+.frameDiv165 {
+  height: 40px;
+  flex-shrink: 0;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.horizontalNavigationDiv5 {
+  border-radius: 2px;
+  background-color: #f4f7fb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #2064b4;
+}
+.frameDiv160,
+.frameDiv161 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv161 {
+  display: none;
+  gap: 10px;
+}
+.frameDiv160 {
+  width: 698px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 20px;
+}
+.image3Icon {
+  border-radius: 100px;
+}
+.ellipseIcon,
+.image3Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.actionsDiv,
+.menuBarDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.actionsDiv {
+  justify-content: flex-end;
+  gap: 10px;
+}
+.menuBarDiv {
+  align-self: stretch;
+  padding: 4px 20px 4px 14px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.highlightDiv1 {
+  align-self: stretch;
+  background-color: #e8e8e8;
+  height: 1px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.horizontalNavigationDiv {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 12px;
+}
+.studyManagementDiv {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  font-size: 8px;
+  color: #414141;
+  font-family: "Open Sans";
+}
